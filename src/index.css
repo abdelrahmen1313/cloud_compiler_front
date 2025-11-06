@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+html, body, #root { height: 100%; }
+
+/* Light and dark base colors */
+:root {
+  color-scheme: light dark;
+}
+
+/* Smooth theme transition (optional) */
+html {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+body {
+    @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
+
